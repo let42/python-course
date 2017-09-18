@@ -1,7 +1,7 @@
-# Riceve in input e stampa quanto ricevuto
+# Exercise 2: Receive the name user in input and print it
 
-name = raw_input('Whats your name? ')
-print 'Hy ', name 
-age = raw_input('How old are you? ')
-print 'Oh.. You\'re ', age, ' old.'
+message = 'Welcome user... Tell me your name >>> '
+name = raw_input(message)
+print name
+
 
