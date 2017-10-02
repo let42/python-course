@@ -8,6 +8,8 @@ try:
     score = float(score)
 except:
     print 'Bad Score'
+    exit(-1)
+    
 
 if( score >=0.90 ):
     print 'A'
