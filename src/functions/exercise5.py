@@ -30,7 +30,8 @@ def main():
     except:
         print "Insert what i say"
         exit()
-    # call the function to calc decibel and print the value
+
+    # print the value returned by the called function
     print decibelCalc(signal_power, noise_power)
 
     degrees = 0
