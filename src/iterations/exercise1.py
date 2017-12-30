@@ -33,16 +33,14 @@ def main( ):
         if line == 'quit':
             break
         print line
+    print 'Done!'
     # Testing the for loop applied to a range of values
     count = 0
     for intervar in [3,42, 12, 35, 24]:
         count = count + 1 + intervar
         print 'Count:', count
     print 'done!'
-
     #
-    
-
     exit(0)
 
 main( )
